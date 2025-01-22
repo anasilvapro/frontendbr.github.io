@@ -1,97 +1,65 @@
-<!doctype html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Front-End Brasil - Portando discussões feitas em grupos (Facebook, Google Groups, Slack, Disqus) para issues.</title>
-        <meta name="description" content="Website da Organização Front-End Brasil">
-        <meta name="keywords" content="front-end, frontend, comunidade, html, css, javascript, brasil">
-        <meta name="viewport" content="width=device-width">
-        <link type="text/plain" rel="author" href="humans.txt" />
-        <link href="//fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="assets/css/style.css">
-				<script src="assets/Ecmascript/scrolling.js"></script>
-    </head>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dominando o ENEM: Guia Completo</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #f4f4f9; }
+        .container { max-width: 800px; margin: auto; padding: 20px; background: white; }
+        .header { background: #4CAF50; color: white; padding: 20px 0; text-align: center; }
+        .cta { background-color: #4CAF50; color: white; padding: 15px; text-align: center; text-decoration: none; display: inline-block; margin: 20px 0; }
+        .section { margin: 20px 0; }
+        .section h2 { color: #333; }
+        .section p, .section ul { margin-bottom: 15px; }
+        .section img { max-width: 100%; height: auto; margin-bottom: 15px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Dominando o ENEM: Sua Jornada para o Sucesso</h1>
+            <p>Prepare-se para alcançar seus objetivos acadêmicos com nosso guia completo.</p>
+        </div>
 
-    <body>
-        <header class="header">
-            <div class="centered-parent">
-                <div class="centered-child">
-                    <img src="https://avatars0.githubusercontent.com/u/16963863?v=3&s=200.jpg" class="logo" alt="Front-End Brasil">
-                    <h3 class="lead-title">Portando discussões feitas em grupos (Facebook, Google Groups, Slack, Disqus) para issues.</h3>
-                    <nav class="nav-main">
-                        <ul class="nav-list">
-                            <li class="nav-item">
-                                <a class="nav-link btn" onclick="go( `#sobre` ); return false" href="#sobre">Sobre</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link btn" onclick="go( `#estrutura` ); return false" href="#estrutura">Estrutura</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link btn" onclick="go( `#sugestoes` ); return false" href="#sugestoes">Sugestões</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </header>
-        <main class="content">
+        <div class="section">
+            <h2>Por que o ENEM é o Passaporte para o Futuro?</h2>
+            <img src="images/universidade.jpg" alt="Acesso à Universidade">
+            <p>O ENEM é a porta de entrada para universidades e bolsas de estudo, proporcionando acesso a oportunidades incríveis.</p>
+        </div>
 
-            <!-- Sobre -->
-            <section class="section" id="sobre">
-                <h2 class="title">Sobre</h2>
-                <p><strong>Olá, seja bem-vindo!</strong></p>
-                <p>Alguns posts em grupos de front-end em redes sociais geram bastante conteúdo bacana que poderia ser disponibilizado de forma mais fácil.</p>
-                <p>A busca do Facebook em grupos, por exemplo, tem vários problemas. Discussões épicas foram perdidas, e pessoas que ingressam agora nos grupos não tem mais acesso a esses posts.</p>
-                <p>A ideia desse repositório é portar ou iniciar essas discussões nas issues. Estando no Github, fica mais fácil procurar respostas a perguntas já respondidas por esses grupos.</p>
-                <p>O objetivo maior é unificar todas as discussões em um só local e o Github foi o escolhido para isso.</p>
-            </section>
+        <div class="section">
+            <h2>Organização e Planejamento</h2>
+            <img src="images/planejamento.jpg" alt="Organização e Planejamento">
+            <ul>
+                <li>Crie um cronograma de estudos.</li>
+                <li>Gerencie seu tempo de forma eficiente.</li>
+                <li>Estabeleça prioridades nos conteúdos.</li>
+            </ul>
+        </div>
 
-            <!-- Estrutura -->
-            <section class="section" id="estrutura">
-                <h2 class="title">Estrutura</h2>
-                <nav class="nav-structure">
-                    <ul class="nav-list">
-                        <li class="nav-item">
-                            <a class="nav-link btn" href="https://frontendbr.com.br/eventos" target="_blank">Eventos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn" href="https://github.com/frontendbr/forum" target="_blank">Fórum</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn" href="https://github.com/frontendbr/me-contrata" target="_blank">Me Contrata</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn" href="https://github.com/frontendbr/open-source" target="_blank">Open Source</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn" href="https://github.com/frontendbr/poste-mais" target="_blank">Poste Mais</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn" href="https://github.com/frontendbr/sugestoes" target="_blank">Sugestões</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn" href="https://github.com/frontendbr/vagas" target="_blank">Vagas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn" href="https://survey.frontendbr.com.br" target="_blank">Survey</a>
-                        </li>
-                    </ul>
-                </nav>
+        <div class="section">
+            <h2>Técnicas de Estudo</h2>
+            <img src="images/tecnicas-estudo.jpg" alt="Técnicas de Estudo">
+            <ul>
+                <li>Mapa mental para melhor memorização.</li>
+                <li>Uso de flashcards para revisão rápida.</li>
+                <li>Resumos e anotações dos pontos-chave.</li>
+            </ul>
+        </div>
 
-            </section>
+        <div class="section">
+            <h2>Simulados e Testes Práticos</h2>
+            <img src="images/simulados.jpg" alt="Simulados e Testes Práticos">
+            <ul>
+                <li>Realize simulados para se familiarizar com o formato da prova.</li>
+                <li>Análise de desempenho para identificar áreas de melhoria.</li>
+                <li>Testes práticos para aperfeiçoar habilidades.</li>
+            </ul>
+        </div>
 
-            <!-- Sugestões -->
-            <section class="section" id="sugestoes">
-
-                <a href="https://github.com/frontendbr/sugestoes/issues" class="box">Clique aqui para enviar uma sugestão!</a>
-
-            </section>
-
-        </main>
-
-        <footer class="footer">
-            <p>Copyright &copy; <script type="text/javascript">document.write(new Date().getFullYear())</script>. Made with coffee and love.</p>
-        </footer>
-
-    </body>
+        <a href="#" class="cta">Adquira Agora</a>
+    </div>
+</body>
 </html>
+
